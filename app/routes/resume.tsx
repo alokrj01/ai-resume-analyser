@@ -5,7 +5,7 @@ import Details from "~/components/Details";
 import Summary from "~/components/Summary";
 import { usePuterStore } from "~/lib/puter";
 
-export const meta = () => [{ title: "Resumind | Review" }, { name: "description", content: "Detailed overview of your Resume" }]
+export const meta = () => [{ title: "CVXpert | Review" }, { name: "description", content: "Detailed overview of your Resume" }]
 
 const resume = () => {
   const { auth, isLoading, fs, kv } = usePuterStore();
